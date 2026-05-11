@@ -1,45 +1,56 @@
-HEAD
-Phishing Awareness Simulator
+# Phishing Awareness Simulator
 
-A beginner-friendly cybersecurity awareness project built using Python Flask.
-This project demonstrates how phishing awareness training platforms work in controlled educational environments.
+A beginner-friendly cybersecurity awareness project built using Python Flask to demonstrate how phishing attacks work and how users can identify suspicious login pages.
 
 ---
 
-Features
+## Project Overview
 
-- Flask-based web application
-- Clean HTML/CSS frontend
-- Awareness simulation pages
-- Beginner-friendly project structure
-- GitHub-ready documentation
-- Educational cybersecurity project
+This project simulates a phishing login page in a safe local environment for educational and awareness purposes only.
 
----
+The simulator demonstrates:
 
-Technologies Used
+* How phishing websites imitate login portals
+* How credentials can be captured
+* Why users should verify websites before entering credentials
+* Basic cybersecurity awareness concepts
 
-- Python 3
-- Flask
-- HTML5
-- CSS3
-- Git & GitHub
+After a user submits demo credentials, the application displays an awareness training message explaining the phishing simulation.
 
 ---
 
-Project Structure
+## Features
 
+* Fake login awareness page
+* Credential capture demonstration
+* Awareness training result page
+* Flask backend server
+* HTML and CSS frontend
+* Local credential logging
+* Beginner-friendly project structure
+
+---
+
+## Technologies Used
+
+* Python
+* Flask
+* HTML5
+* CSS3
+* Git
+* GitHub
+
+---
+
+## Project Structure
+
+```bash
 phishing-awareness-simulator/
-│
-├── screenshots/
-│   ├── home.png
-│   ├── result.png
-│   ├── vscode.png
-│   └── terminal.png
 │
 ├── app.py
 ├── requirements.txt
 ├── README.md
+├── captured_credentials.txt
 │
 ├── templates/
 │   ├── index.html
@@ -47,109 +58,136 @@ phishing-awareness-simulator/
 │
 └── static/
     └── style.css
+```
 
 ---
 
-Installation
+## Installation
 
-Clone Repository
+### 1. Clone Repository
 
+```bash
 git clone https://github.com/Prasad-Kedar/phishing-awareness-simulator-prasad.git
+```
 
-Open Project
+### 2. Open Project Folder
 
-cd phishing-awareness-simulator
+```bash
+cd phishing-awareness-simulator-prasad
+```
 
-Install Dependencies
+### 3. Install Dependencies
 
-pip install flask
+```bash
+pip install -r requirements.txt
+```
 
-OR
+### 4. Run Application
 
-py -m pip install flask
-
----
-
-Run Project
-
+```bash
 python app.py
+```
 
-OR
+---
 
-py app.py
+## Access Application
 
-Application will run on:
+Open browser and visit:
 
+```bash
 http://127.0.0.1:5000
+```
 
 ---
 
-Screenshots
+## Screenshots
 
-Home Page
+### Login Page
 
-"Home" (screenshots/home.png)
+Add screenshot here:
 
----
+```md
+![Login Page](screenshots/login-page.png)
+```
 
-Result Page
+### Awareness Result Page
 
-"Result" (screenshots/result.png)
-
----
-
-VS Code Structure
-
-"VS Code" (screenshots/vscode.png)
+```md
+![Result Page](screenshots/result-page.png)
+```
 
 ---
 
-Running Terminal
+## How It Works
 
-"Terminal" (screenshots/terminal.png)
-
----
-
-Learning Outcomes
-
-This project helped improve skills in:
-
-- Python development
-- Flask framework
-- Web application structure
-- Git & GitHub workflow
-- Cybersecurity awareness concepts
+1. User opens awareness login page
+2. User enters demo credentials
+3. Flask backend stores entered data locally
+4. Awareness message is displayed
+5. User learns phishing prevention concepts
 
 ---
 
-Educational Purpose
+## Educational Purpose
 
-This project is created strictly for educational and cybersecurity awareness training purposes.
+This project was created strictly for:
 
----
-
-Future Improvements
-
-- User authentication
-- Dashboard analytics
-- Awareness scoring system
-- Email simulation module
-- Database integration
+* Cybersecurity awareness training
+* Educational demonstrations
+* Personal lab practice
+* Understanding phishing techniques
 
 ---
 
-Author
+## Important Disclaimer
+
+This project is intended only for ethical and educational purposes in controlled environments.
+
+Do NOT use this project against real users, organizations, or public systems without proper authorization.
+
+The author is not responsible for misuse of this project.
+
+---
+
+## Future Improvements
+
+* Email phishing simulation
+* Admin dashboard
+* SQLite database integration
+* User statistics panel
+* Awareness scoring system
+* Docker deployment
+* SIEM log integration
+
+---
+
+## Skills Learned
+
+* Flask web development
+* Git and GitHub workflow
+* HTML/CSS basics
+* Cybersecurity awareness concepts
+* Phishing attack simulation
+* Python backend development
+
+---
+
+## Author
 
 Prasad Kedar
 
+GitHub:
+https://github.com/Prasad-Kedar
+
 ---
 
-Connect With Me
+## Connect With Me
 
-- GitHub: https://github.com/Prasad-Kedar
-- LinkedIn:https://www.linkedin.com/in/prasad-kedar-64a0414b
+LinkedIn:
+www.linkedin.com/in/prasad-kedar-64a0414b
 
-=======
-# phishing-awareness-simulator-prasad
-Cybersecurity awareness simulator using Flask
->>>>>>> 1bde71b2444ef9f4fce0f0230cf6c196601f9b26
+---
+
+## License
+
+This project is licensed for educational use only.
