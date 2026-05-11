@@ -104,16 +104,14 @@ http://127.0.0.1:5000
 
 ### Login Page
 
-Add screenshot here:
-
 ```md
-Phishing Awreness simultor\Screenshots\home.png
+
 ```
 
 ### Awareness Result Page
 
 ```md
-Phishing Awreness simultor\Screenshots\result.png
+
 ```
 
 ---
