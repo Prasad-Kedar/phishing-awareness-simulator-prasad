@@ -107,13 +107,13 @@ http://127.0.0.1:5000
 Add screenshot here:
 
 ```md
-![Login Page](screenshots/login-page.png)
+Screenshots/home.png
 ```
 
 ### Awareness Result Page
 
 ```md
-![Result Page](screenshots/result-page.png)
+Screenshots/result.png
 ```
 
 ---
