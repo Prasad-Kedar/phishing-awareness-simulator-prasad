@@ -107,13 +107,13 @@ http://127.0.0.1:5000
 Add screenshot here:
 
 ```md
-C:\Users\ROGG513\Desktop\Phishing Awreness simultor\Screenshots\home.png
+Phishing Awreness simultor\Screenshots\home.png
 ```
 
 ### Awareness Result Page
 
 ```md
-C:\Users\ROGG513\Desktop\Phishing Awreness simultor\Screenshots\result.png
+Phishing Awreness simultor\Screenshots\result.png
 ```
 
 ---
