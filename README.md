@@ -1,3 +1,4 @@
+HEAD
 Phishing Awareness Simulator
 
 A beginner-friendly cybersecurity awareness project built using Python Flask.
@@ -148,3 +149,7 @@ Connect With Me
 - GitHub: https://github.com/Prasad-Kedar
 - LinkedIn:https://www.linkedin.com/in/prasad-kedar-64a0414b
 
+=======
+# phishing-awareness-simulator-prasad
+Cybersecurity awareness simulator using Flask
+>>>>>>> 1bde71b2444ef9f4fce0f0230cf6c196601f9b26
