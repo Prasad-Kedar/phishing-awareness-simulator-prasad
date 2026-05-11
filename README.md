@@ -53,7 +53,7 @@ Installation
 
 Clone Repository
 
-git clone https://github.com/YOUR_USERNAME/phishing-awareness-simulator.git
+git clone https://github.com/Prasad-Kedar/phishing-awareness-simulator-prasad.git
 
 Open Project
 
